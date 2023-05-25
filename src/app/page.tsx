@@ -11,18 +11,18 @@ async function getAdvice() {
 export default function Home() {
 	const [advice, setAdvice] = useState({ slip: { id: "", advice: "" } });
 
-	const fetchData = async () => {
+	async function fetchData() {
 		const newAdvice = await getAdvice();
 		setAdvice(newAdvice);
-	};
+	}
 
 	useEffect(() => {
 		fetchData();
-	}, []); // Fetch data on component mount
+	}, []);
 
-	const handleButtonClick = async () => {
+	async function handleButtonClick() {
 		await fetchData();
-	};
+	}
 	return (
 		<article className="bg-blue-dark_gray flex flex-col items-center rounded-xl gap-6 p-4">
 			<div className="mt-6">
