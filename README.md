@@ -15,8 +15,8 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ## Links
 
-- [Advice Generator - Frontend Mentor](https://your-solution-url.com)
-- [Advice Generator - Vercel app](https://your-live-site-url.com)
+- [Advice Generator - Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-2Se-IU3L6I)
+- [Advice Generator - Vercel app](https://xviigimenez-advice-generator.vercel.app/)
 
 ## Built with
 
