@@ -31,7 +31,7 @@ export default function Home() {
 				</h1>
 			</div>
 			<div>
-				<h2 className="text-light_cyan text-xl font-bold">
+				<h2 className="text-light_cyan text-xl text-center font-bold">
 					{advice.slip.advice}
 				</h2>
 			</div>
