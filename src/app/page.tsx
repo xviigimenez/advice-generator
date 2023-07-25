@@ -15,6 +15,7 @@ export default function Home() {
 			);
 			return data as AdviceData;
 		},
+		refetchOnWindowFocus: false,
 	});
 
 	return (
