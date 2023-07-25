@@ -45,6 +45,14 @@ export default function Home() {
 				<Image
 					src="/pattern-divider-mobile.svg"
 					alt={"Pattern divider"}
+					className="xl:hidden"
+					width={295}
+					height={16}
+				/>
+				<Image
+					src="/pattern-divider-desktop.svg"
+					alt={"Pattern divider"}
+					className="hidden xl:block"
 					width={295}
 					height={16}
 				/>
