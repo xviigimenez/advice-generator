@@ -63,7 +63,7 @@ export default function Home() {
 				>
 					<Image
 						src="/icon-dice.svg"
-						alt={""}
+						alt={"Dice icon"}
 						width={24}
 						height={24}
 					/>
