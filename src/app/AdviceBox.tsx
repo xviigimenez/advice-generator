@@ -1,5 +1,6 @@
 "use client";
 import axios from "axios";
+import { Loader2 } from "lucide-react";
 import Image from "next/image";
 import { useQuery } from "react-query";
 
@@ -22,7 +23,7 @@ export default function AdviceBox() {
 			<div className="mt-6">
 				<h1 className="text-neon_green uppercase text-sm tracking-[.2em] font-bold">
 					{isLoading ? (
-						"Loading..."
+						<Loader2 className="h-10 w-10 animate-spin" />
 					) : isSuccess ? (
 						<span>advice# {data.slip.id}</span>
 					) : (
@@ -33,7 +34,7 @@ export default function AdviceBox() {
 			<div>
 				<h2 className="text-light_cyan text-xl font-bold">
 					{isLoading ? (
-						"Loading..."
+						<Loader2 className="h-10 w-10 animate-spin" />
 					) : isSuccess ? (
 						<span>{data.slip.advice}</span>
 					) : (
